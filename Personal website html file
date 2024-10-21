@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Egeonu Amarachi's Personal Website</title>
+  <link rel="stylesheet" href="personal.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Egeonu Amarachi</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#gallery">Gallery of Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+</header>
+
+<!-- Home Section -->
+<section id="home">
+  <h2>Welcome to My Personal Website</h2>
+  <p>Hello, Here's my mini personal gallery. Explore my hobbies and feel free to contact me.</p>
+</section>
+
+<!-- About Section -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am Egeonu Amarachi, a front-end web developer and a social impact advocate. I have a passion for creating user-friendly websites and advocating for positive social changes.</p>
+</section>
+
+<!-- Gallery of Hobbies -->
+<section id="gallery">
+  <h2>Gallery of Hobbies</h2>
+  <div class="slider">
+    <div class="slide">
+      <img src="Img/Travel.jpeg" alt="Travelling">
+      <p>Travelling</p>
+    </div>
+    <div class="slide">
+      <img src="Img/Movies.jpeg" alt="Watching Movie">
+      <p>Watching Movies</p>
+      </div>
+      <div class="slide">
+        <img src="Img/Ocassion.jpeg" alt="Going for Occasions">
+        <p>Going for Occasions</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Submit</button>
+    </form>
+    <p>Email: <a href="mailto:egeonu.e.amarachi@gmail.com">egeonu.e.amarachi@gmail.com</a></p>
+    <p>Phone: <a href="tel:+2348079280426">+2348079280426</a></p>
+  </section>
+
+  <script src="personal.js"></script>
+</body>
